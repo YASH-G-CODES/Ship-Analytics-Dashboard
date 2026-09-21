@@ -1,0 +1,1495 @@
+{
+  "orders": [
+    {
+      "order_id": "1001",
+      "customer": {
+        "id": "C001",
+        "name": "Rahul"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 500
+        },
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        }
+      ],
+      "order_date": "2024-01-01"
+    },
+    {
+      "order_id": "1002",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 3,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-01-02"
+    },
+    {
+      "order_id": "1003",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1260
+        },
+        {
+          "product_id": "P103",
+          "qty": 1,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-01-21"
+    },
+    {
+      "order_id": "1004",
+      "customer": {
+        "id": "C001",
+        "name": "Rahul"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-02-05"
+    },
+    {
+      "order_id": "1005",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P105",
+          "qty": 2,
+          "price": 150
+        },
+        {
+          "product_id": "P107",
+          "qty": 1,
+          "price": 80
+        },
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1200
+        }
+      ],
+      "order_date": "2024-02-08"
+    },
+    {
+      "order_id": "1006",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P105",
+          "qty": 1,
+          "price": 142
+        }
+      ],
+      "order_date": "2024-02-09"
+    },
+    {
+      "order_id": "1007",
+      "customer": {
+        "id": "C003",
+        "name": "Vikram"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 475
+        },
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "order_date": "2024-02-24"
+    },
+    {
+      "order_id": "1008",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P110",
+          "qty": 2,
+          "price": 260
+        },
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 110
+        }
+      ],
+      "order_date": "2024-03-03"
+    },
+    {
+      "order_id": "1009",
+      "customer": {
+        "id": "C005",
+        "name": "Arjun"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 200
+        },
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1260
+        }
+      ],
+      "order_date": "2024-03-04"
+    },
+    {
+      "order_id": "1010",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 110
+        },
+        {
+          "product_id": "P103",
+          "qty": 3,
+          "price": 210
+        },
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 378
+        }
+      ],
+      "order_date": "2024-03-18"
+    },
+    {
+      "order_id": "1011",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 104
+        }
+      ],
+      "order_date": "2024-03-22"
+    },
+    {
+      "order_id": "1012",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P110",
+          "qty": 1,
+          "price": 260
+        },
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 450
+        }
+      ],
+      "order_date": "2024-03-24"
+    },
+    {
+      "order_id": "1013",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1260
+        },
+        {
+          "product_id": "P105",
+          "qty": 2,
+          "price": 150
+        },
+        {
+          "product_id": "P106",
+          "qty": 2,
+          "price": 420
+        }
+      ],
+      "order_date": "2024-04-01"
+    },
+    {
+      "order_id": "1014",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P105",
+          "qty": 1,
+          "price": 150
+        }
+      ],
+      "order_date": "2024-04-02"
+    },
+    {
+      "order_id": "1015",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P105",
+          "qty": 1,
+          "price": 150
+        }
+      ],
+      "order_date": "2024-04-03"
+    },
+    {
+      "order_id": "1016",
+      "customer": {
+        "id": "C012",
+        "name": "Neha"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1080
+        },
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 110
+        }
+      ],
+      "order_date": "2024-04-14"
+    },
+    {
+      "order_id": "1017",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": null
+        }
+      ],
+      "order_date": "2024-04-19"
+    },
+    {
+      "order_id": "1018",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        },
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-05-01"
+    },
+    {
+      "order_id": "1019",
+      "customer": {
+        "id": "C011",
+        "name": "Aditya"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 378
+        },
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-05-07"
+    },
+    {
+      "order_id": "1020",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P104",
+          "qty": 1,
+          "price": 315
+        }
+      ],
+      "order_date": "2024-05-08"
+    },
+    {
+      "order_id": "1021",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "order_date": "2024-05-17"
+    },
+    {
+      "order_id": "1022",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P108",
+          "qty": 1,
+          "price": 240
+        },
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        },
+        {
+          "product_id": "P105",
+          "qty": 3,
+          "price": 142
+        }
+      ],
+      "order_date": "2024-05-18"
+    },
+    {
+      "order_id": "1023",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "qty": "2",
+          "price": 84
+        }
+      ],
+      "order_date": "2024-05-20"
+    },
+    {
+      "order_id": "1024",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 210
+        }
+      ],
+      "order_date": "2024-06-07"
+    },
+    {
+      "order_id": "1025",
+      "customer": {
+        "id": "C001",
+        "name": "Rahul"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 500
+        },
+        {
+          "product_id": "P105",
+          "qty": 3,
+          "price": 150
+        }
+      ],
+      "order_date": "2024-06-08"
+    },
+    {
+      "order_id": "1026",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 3,
+          "price": 500
+        },
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 110
+        }
+      ],
+      "order_date": "2024-06-14"
+    },
+    {
+      "order_id": "1027",
+      "customer": {
+        "id": "C001",
+        "name": "Rahul"
+      },
+      "items": [
+        {
+          "product_id": "P104",
+          "qty": 3,
+          "price": 350
+        },
+        {
+          "product_id": "P105",
+          "qty": 2,
+          "price": 150
+        }
+      ],
+      "order_date": "2024-06-18"
+    },
+    {
+      "order_id": "1028",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-06-21"
+    },
+    {
+      "order_id": "1029",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "order_date": "2024-06-23"
+    },
+    {
+      "order_id": "1030",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 180
+        }
+      ],
+      "order_date": "2024-06-27"
+    },
+    {
+      "order_id": "1031",
+      "customer": null,
+      "items": [
+        {
+          "product_id": "P104",
+          "qty": 1,
+          "price": 350
+        }
+      ],
+      "order_date": "2024-07-01"
+    },
+    {
+      "order_id": "1032",
+      "customer": {
+        "id": "C011",
+        "name": "Aditya"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 3,
+          "price": 378
+        },
+        {
+          "product_id": "P105",
+          "qty": 1,
+          "price": 150
+        }
+      ],
+      "order_date": "2024-07-06"
+    },
+    {
+      "order_id": "1033",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        },
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-07-09"
+    },
+    {
+      "order_id": "1034",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 2,
+          "price": 99
+        }
+      ],
+      "order_date": "2024-07-14"
+    },
+    {
+      "order_id": "1035",
+      "customer": {
+        "id": "C005",
+        "name": "Arjun"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 3,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-07-15"
+    },
+    {
+      "order_id": "1036",
+      "customer": {
+        "id": "C003",
+        "name": "Vikram"
+      },
+      "items": [
+        {
+          "product_id": "P105",
+          "qty": 1,
+          "price": 150
+        },
+        {
+          "product_id": "P104",
+          "qty": 1,
+          "price": 315
+        }
+      ],
+      "order_date": "2024-07-19"
+    },
+    {
+      "order_id": "1037",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1200
+        },
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 450
+        }
+      ],
+      "order_date": "2024-07-23"
+    },
+    {
+      "order_id": "1038",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 2,
+          "price": 420
+        },
+        {
+          "product_id": "P103",
+          "qty": 1,
+          "price": 210
+        }
+      ],
+      "order_date": "2024-08-03"
+    },
+    {
+      "order_id": "1039",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P110",
+          "qty": 1,
+          "price": 234
+        },
+        {
+          "product_id": "P108",
+          "qty": 2,
+          "price": 228
+        }
+      ],
+      "order_date": "2024-08-04"
+    },
+    {
+      "order_id": "1040",
+      "customer": {
+        "id": "C012",
+        "name": "Neha"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 200
+        },
+        {
+          "product_id": "P107",
+          "qty": 1,
+          "price": 72
+        }
+      ],
+      "order_date": "2024-08-05"
+    },
+    {
+      "order_id": "1041",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P108",
+          "qty": 1,
+          "price": 216
+        }
+      ],
+      "order_date": "2024-08-07"
+    },
+    {
+      "order_id": "1042",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-08-09"
+    },
+    {
+      "order_id": "1043",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P104",
+          "qty": 3,
+          "price": 350
+        },
+        {
+          "product_id": "P110",
+          "qty": 3,
+          "price": 260
+        }
+      ],
+      "order_date": "2024-08-11"
+    },
+    {
+      "order_id": "1044",
+      "customer": {
+        "id": "C003",
+        "name": "Vikram"
+      },
+      "items": [
+        {
+          "product_id": " p104",
+          "qty": 1,
+          "price": 260
+        },
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 475
+        }
+      ],
+      "order_date": "2024-08-13"
+    },
+    {
+      "order_id": "1045",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 110
+        }
+      ],
+      "order_date": "2024-08-28"
+    },
+    {
+      "order_id": "1046",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 2,
+          "price": 110
+        }
+      ],
+      "order_date": "2024-09-02"
+    },
+    {
+      "order_id": "1047",
+      "customer": {
+        "id": "C012",
+        "name": "Neha"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1140
+        },
+        {
+          "product_id": "P104",
+          "qty": 1,
+          "price": 350
+        }
+      ],
+      "order_date": null
+    },
+    {
+      "order_id": "1048",
+      "customer": {
+        "id": "C005",
+        "name": "Arjun"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 420
+        },
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-09-09"
+    },
+    {
+      "order_id": "1049",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 110
+        },
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "order_date": "2024-09-12"
+    },
+    {
+      "order_id": "1050",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 2,
+          "price": 420
+        },
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-09-15"
+    },
+    {
+      "order_id": "1051",
+      "customer": {
+        "id": "C012",
+        "name": "Neha"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-09-18"
+    },
+    {
+      "order_id": "1052",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P999",
+          "qty": 1,
+          "price": 260
+        }
+      ],
+      "order_date": "2024-09-20"
+    },
+    {
+      "order_id": "1053",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 525
+        }
+      ],
+      "order_date": "2024-09-27"
+    },
+    {
+      "order_id": "1054",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 2,
+          "price": 110
+        }
+      ],
+      "order_date": "2024-09-28"
+    },
+    {
+      "order_id": "1055",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        }
+      ],
+      "order_date": "2024-10-03"
+    },
+    {
+      "order_id": "1056",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        },
+        {
+          "product_id": "P108",
+          "qty": 3,
+          "price": 240
+        }
+      ],
+      "order_date": "2024-10-07"
+    },
+    {
+      "order_id": "1057",
+      "customer": {
+        "id": "C002",
+        "name": "Anita"
+      },
+      "items": [
+        {
+          "product_id": "P108",
+          "qty": 3,
+          "price": 240
+        }
+      ],
+      "order_date": "2024-10-10"
+    },
+    {
+      "order_id": "1058",
+      "customer": {
+        "id": "C010",
+        "name": "Divya"
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "qty": 2,
+          "price": 80
+        }
+      ],
+      "order_date": "2024-10-12"
+    },
+    {
+      "order_id": "1059",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P109",
+          "qty": 1,
+          "price": 110
+        }
+      ],
+      "order_date": "2024-10-13"
+    },
+    {
+      "order_id": "1060",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "qty": 2,
+          "price": 76
+        }
+      ],
+      "order_date": "18/10/2024"
+    },
+    {
+      "order_id": "1061",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1200
+        }
+      ],
+      "order_date": "2024-10-19"
+    },
+    {
+      "order_id": "1062",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 1,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-10-20"
+    },
+    {
+      "order_id": "1063",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        }
+      ],
+      "order_date": "2024-10-21"
+    },
+    {
+      "order_id": "1064",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P104",
+          "qty": 3,
+          "price": 350
+        },
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1200
+        }
+      ],
+      "order_date": "2024-11-02"
+    },
+    {
+      "order_id": "1065",
+      "customer": {
+        "id": "C010",
+        "name": "Divya"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-11-03"
+    },
+    {
+      "order_id": "1066",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "qty": 1,
+          "price": 76
+        },
+        {
+          "product_id": "P108",
+          "qty": 1,
+          "price": 240
+        }
+      ],
+      "order_date": "2024-11-04"
+    },
+    {
+      "order_id": "1067",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P108",
+          "qty": 3,
+          "price": 216
+        },
+        {
+          "product_id": "P107",
+          "qty": 3,
+          "price": 80
+        }
+      ],
+      "order_date": "2024-11-08"
+    },
+    {
+      "order_id": "1068",
+      "customer": {
+        "id": "C010",
+        "name": "Divya"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        },
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "order_date": "2024-11-10"
+    },
+    {
+      "order_id": "1069",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 190
+        }
+      ],
+      "order_date": "2024-11-13"
+    },
+    {
+      "order_id": "1070",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-11-22"
+    },
+    {
+      "order_id": "1070",
+      "customer": {
+        "id": "C007",
+        "name": "Karan"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-11-22"
+    },
+    {
+      "order_id": "1071",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 2,
+          "price": 450
+        }
+      ],
+      "order_date": "2024-11-23"
+    },
+    {
+      "order_id": "1072",
+      "customer": {
+        "id": "C004",
+        "name": "Priya"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-11-24"
+    },
+    {
+      "order_id": "1073",
+      "customer": {
+        "id": "C011",
+        "name": "Aditya"
+      },
+      "items": [
+        {
+          "product_id": "P110",
+          "qty": 1,
+          "price": 260
+        }
+      ],
+      "order_date": "2024-11-27"
+    },
+    {
+      "order_id": "1074",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 2,
+          "price": 378
+        }
+      ],
+      "order_date": "2024-12-03"
+    },
+    {
+      "order_id": "1075",
+      "customer": {
+        "id": "C003",
+        "name": "Vikram"
+      },
+      "items": [],
+      "order_date": "2024-12-06"
+    },
+    {
+      "order_id": "1076",
+      "customer": {
+        "id": "C005",
+        "name": "Arjun"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 378
+        },
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        }
+      ],
+      "order_date": "2024-12-07"
+    },
+    {
+      "order_id": "1077",
+      "customer": {
+        "id": "C009",
+        "name": "Rohan"
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "qty": 1,
+          "price": 500
+        },
+        {
+          "product_id": "P104",
+          "qty": 2,
+          "price": 350
+        }
+      ],
+      "order_date": "2024-12-09"
+    },
+    {
+      "order_id": "1078",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P104",
+          "qty": 2,
+          "price": 332
+        },
+        {
+          "product_id": "P107",
+          "qty": 1,
+          "price": 76
+        }
+      ],
+      "order_date": "2024-12-12"
+    },
+    {
+      "order_id": "1079",
+      "customer": {
+        "id": "C012",
+        "name": "Neha"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 190
+        },
+        {
+          "product_id": "P102",
+          "qty": 1,
+          "price": 1200
+        }
+      ],
+      "order_date": "2024-12-15"
+    },
+    {
+      "order_id": "1080",
+      "customer": {
+        "id": "C010",
+        "name": "Divya"
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "qty": 1,
+          "price": 200
+        },
+        {
+          "product_id": "P105",
+          "qty": 1,
+          "price": 150
+        }
+      ],
+      "order_date": "2024-12-21"
+    },
+    {
+      "order_id": "1081",
+      "customer": {
+        "id": "C005",
+        "name": "Arjun"
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "qty": 3,
+          "price": 80
+        },
+        {
+          "product_id": "P103",
+          "qty": 2,
+          "price": 200
+        }
+      ],
+      "order_date": "2024-12-23"
+    },
+    {
+      "order_id": "1082",
+      "customer": {
+        "id": "C008",
+        "name": "Meera"
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "qty": 2,
+          "price": 1140
+        },
+        {
+          "product_id": "P105",
+          "qty": 1,
+          "price": 150
+        }
+      ],
+      "order_date": "2024-12-24"
+    },
+    {
+      "order_id": "1083",
+      "customer": {
+        "id": "C012",
+        "name": "Neha"
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "order_date": "2024-12-25"
+    },
+    {
+      "order_id": "1084",
+      "customer": {
+        "id": "C006",
+        "name": "Sneha"
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "qty": 2,
+          "price": 80
+        }
+      ],
+      "order_date": "2024-12-28"
+    }
+  ]
+}

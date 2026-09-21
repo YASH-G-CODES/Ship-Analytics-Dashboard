@@ -1,0 +1,15 @@
+{
+  "base": "USD",
+  "note": "Approximate offline fallback rates. The app tries a live API first.",
+  "rates": {
+    "USD": 1,
+    "INR": 84.0,
+    "EUR": 0.92,
+    "GBP": 0.78,
+    "JPY": 150.0,
+    "AUD": 1.5,
+    "CAD": 1.36,
+    "AED": 3.6725,
+    "SGD": 1.34
+  }
+}

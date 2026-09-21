@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101827" />
+    <title>Ship Analytics Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand-mark"><span></span><span></span><span></span></div>
+          <div>
+            <strong>Ship Analytics </strong
+            ><small>operations intelligence</small>
+          </div>
+        </div>
+        <!--<div class="workspace-switcher"><span class="workspace-dot"></span><span>Commerce / FY24</span><span class="chevron">⌄</span></div> -->
+        <nav aria-label="Primary navigation">
+          <p class="nav-label">Workspace</p>
+          <button class="nav-item active" data-view="overview">
+            <span class="nav-icon">◒</span>Overview
+          </button>
+          <button class="nav-item" data-view="orders">
+            <span class="nav-icon">▤</span>Orders
+          </button>
+          <button class="nav-item" data-view="shipments">
+            <span class="nav-icon">⌁</span>Shipments
+          </button>
+          <button class="nav-item" data-view="products">
+            <span class="nav-icon">◇</span>Products
+          </button>
+          <!--<p class="nav-label nav-label-spaced">System</p>
+        <button class="nav-item" data-view="pipeline"><span class="nav-icon">⌘</span>Data pipeline</button>
+        <button class="nav-item" data-view="architecture"><span class="nav-icon">◎</span>Architecture</button>-->
+        </nav>
+        <div class="sidebar-footer">
+          <!--<div class="health"><span></span><div><b></b><small>Last synced just now</small></div></div> -->
+          <div class="profile">
+            <div class="avatar">YS</div>
+            <div><b>Yash Gupta</b><small>Administrator</small></div>
+            <span>•••</span>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <button
+            class="mobile-menu"
+            id="mobileMenu"
+            aria-label="Open navigation"
+          >
+            ☰
+          </button>
+          <div>
+            <p class="eyebrow">Monday, 21 September 2026</p>
+            <h1 id="pageTitle">Welcome to Analytics Dashboard, Yash</h1>
+          </div>
+          <div class="top-actions">
+            <button class="icon-button" aria-label="Notifications">
+              ♢<i></i></button
+            ><button class="help-button">? <span>Help center</span></button
+            ><button class="user-avatar">YS</button>
+          </div>
+        </header>
+
+        <div class="content">
+          <section class="view active-view" id="view-overview">
+            <div class="view-head">
+              <div>
+                <h2>Overview</h2>
+                <p>A clear view of everything moving through your business.</p>
+              </div>
+              <div class="head-actions">
+                <button class="ghost-button" id="exportButton">
+                  ↓ Export report</button
+                ><button class="primary-button" id="refreshButton">
+                  ↻ Refresh data
+                </button>
+              </div>
+            </div>
+            <div class="filter-row">
+              <div class="date-control">
+                ▣ <span>Jan 01, 2024 – Dec 31, 2024</span><b>⌄</b>
+              </div>
+              <button class="filter-chip active" data-filter="all">
+                All orders</button
+              ><button class="filter-chip" data-filter="Delivered">
+                Delivered</button
+              ><button class="filter-chip" data-filter="Delayed">Delayed</button
+              ><span class="filter-note"> <i></i></span>
+            </div>
+            <div class="kpi-grid" id="kpiGrid"></div>
+            <div class="dashboard-grid">
+              <article class="panel revenue-panel">
+                <div class="panel-head">
+                  <div>
+                    <h3>Revenue performance</h3>
+                    <p>Monthly revenue across all channels</p>
+                  </div>
+                  <div class="segmented">
+                    <button class="active" data-metric="revenue">Revenue</button
+                    ><button data-metric="orders">Orders</button>
+                  </div>
+                </div>
+                <div class="chart-legend">
+                  <span><i class="legend-line"></i>Current year</span
+                  ><span
+                    ><i class="legend-line muted-line"></i>Previous year</span
+                  ><strong id="revenueTotal"></strong>
+                </div>
+                <div id="revenueChart" class="line-chart"></div>
+              </article>
+              <article class="panel delivery-panel">
+                <div class="panel-head">
+                  <div>
+                    <h3>Delivery health</h3>
+                    <p>Current order status</p>
+                  </div>
+                  <button class="more-button">•••</button>
+                </div>
+                <div id="deliveryChart" class="delivery-content"></div>
+                <div class="delivery-foot">
+                  <span><i class="green-dot"></i>On time</span
+                  ><span><i class="orange-dot"></i>In transit</span
+                  ><span><i class="red-dot"></i>Delayed</span>
+                </div>
+              </article>
+            </div>
+            <div class="dashboard-grid lower-grid">
+              <article class="panel">
+                <div class="panel-head">
+                  <div>
+                    <h3>Revenue by category</h3>
+                    <p>Where your revenue comes from</p>
+                  </div>
+                  <button class="more-button">•••</button>
+                </div>
+                <div id="categoryChart" class="category-chart"></div>
+              </article>
+              <article class="panel">
+                <div class="panel-head">
+                  <div>
+                    <h3>Recent orders</h3>
+                    <p>The latest activity from your store</p>
+                  </div>
+                  <button class="text-button" data-view-link="orders">
+                    View all →
+                  </button>
+                </div>
+                <div id="recentOrders" class="recent-orders"></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="view" id="view-orders">
+            <div class="view-head">
+              <div>
+                <h2>Orders</h2>
+                <p>Every order, normalized and ready to inspect.</p>
+              </div>
+            </div>
+            <div class="panel table-panel">
+              <div class="table-toolbar">
+                <input
+                  id="orderSearch"
+                  placeholder="⌕  Search orders or customers"
+                /><span id="orderCount"></span>
+              </div>
+              <div class="table-scroll">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Order</th>
+                      <th>Customer</th>
+                      <th>Date</th>
+                      <th>Items</th>
+                      <th>Total</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ordersTable"></tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+          <section class="view" id="view-shipments">
+            <div class="view-head">
+              <div>
+                <h2>Shipments</h2>
+                <p>Track delivery performance from dispatch to doorstep.</p>
+              </div>
+            </div>
+            <div class="panel table-panel">
+              <div class="table-toolbar">
+                <div class="status-summary" id="shipmentSummary"></div>
+              </div>
+              <div class="table-scroll">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Shipment</th>
+                      <th>Order</th>
+                      <th>Customer</th>
+                      <th>Delivery time</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="shipmentsTable"></tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+          <section class="view" id="view-products">
+            <div class="view-head">
+              <div>
+                <h2>Products</h2>
+                <p>Understand what customers are buying most.</p>
+              </div>
+            </div>
+            <div class="panel table-panel">
+              <div class="table-toolbar">
+                <span class="toolbar-title">Product performance</span
+                ><span>Sorted by revenue</span>
+              </div>
+              <div class="table-scroll">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Product</th>
+                      <th>Category</th>
+                      <th>Units sold</th>
+                      <th>Revenue</th>
+                      <th>Share</th>
+                    </tr>
+                  </thead>
+                  <tbody id="productsTable"></tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+          <!--<section class="view" id="view-pipeline">
+            <div class="view-head">
+              <div>
+                <h2>Data pipeline</h2>
+                <p>How raw operational exports become trusted metrics.</p>
+              </div>
+            </div>
+            <div class="pipeline-cards" id="pipelineCards"></div>
+            <div class="panel quality-panel">
+              <div class="panel-head">
+                <div>
+                  <h3>Data quality report</h3>
+                  <p>Issues found and resolved during normalization</p>
+                </div>
+                <span class="quality-badge">● 8 resolved automatically</span>
+              </div>
+              <div id="qualityRows"></div>
+            </div>
+          </section>
+          <section class="view" id="view-architecture">
+            <div class="view-head">
+              <div>
+                <h2>Architecture</h2>
+                <p>Small, inspectable, and deliberately dependency-free.</p>
+              </div>
+            </div>
+            <div class="architecture-card">
+              <div class="architecture-flow">
+                <div class="arch-node">
+                  <b>01</b><strong>Raw sources</strong
+                  ><span>CSV · JSON · XML</span>
+                </div>
+                <div class="flow-line"></div>
+                <div class="arch-node accent-node">
+                  <b>02</b><strong>Normalize</strong
+                  ><span>validate · coerce · clean</span>
+                </div>
+                <div class="flow-line"></div>
+                <div class="arch-node">
+                  <b>03</b><strong>Join & derive</strong
+                  ><span>orders · products · shipments</span>
+                </div>
+                <div class="flow-line"></div>
+                <div class="arch-node accent-node">
+                  <b>04</b><strong>ShipSight UI</strong
+                  ><span>charts · filters · exports</span>
+                </div>
+              </div>
+              <div class="architecture-copy">
+                <h3>Built for the exercise, not around it.</h3>
+                <p>
+                  The dashboard follows the brief's separation-of-concerns
+                  requirement: each source has a format-specific reader,
+                  cleaning rules are explicit, and the interface renders from
+                  one in-memory model. No server or database is required to
+                  explore the data.
+                </p>
+                <div class="tech-list">
+                  <span>HTML / CSS / JS</span><span>Inline SVG charts</span
+                  ><span>Responsive by default</span
+                  ><span>Client-side only</span>
+                </div>
+              </div>
+            </div>
+          </section>-->
+        </div>
+      </main>
+    </div>
+    <div class="toast" id="toast"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

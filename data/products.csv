@@ -1,0 +1,11 @@
+ProductID,ProductName,Category
+P101,Laptop,Electronics
+P102,Phone,Electronics
+P103,Chair,Furniture
+P104,Desk,Furniture
+P105,Headphones,Accessories
+P106,Monitor,Electronics
+P107,Keyboard,Accessories
+P108,Bookshelf,Furniture
+P109,Blender,Appliances
+P110,Air Purifier,Appliances
